@@ -1,0 +1,75 @@
+body {
+    background-image: linear-gradient(#541b54, rgb(255, 131, 236));
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+}
+
+#fejlec h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#menu nav {
+    background-color: rgba(0, 0, 0, 0.292);
+    padding: 15px;
+    border: 1px blac solid;
+    margin-bottom: 20px;
+}
+
+#menu nav a {
+    text-decoration: none;
+    color: #541b54;
+    padding: 5px;
+    background-color: rgb(74, 174, 241);
+    border: 1px solid black;
+    margin: 5px 100px 5px 100px;
+    display:inline-block;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#menu nav a:hover {
+    background-color: rgb(255, 131, 236);
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.item {
+    background-color: rgba(74, 174, 241, 0.400);
+    border: 1px black solid;
+}
+
+.item h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.item p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 20px;
+    padding: 0 20px 0 20px;
+}
+
+.item:nth-child(1){
+    grid-column: span 3;
+}
+
+.item:nth-child(2){
+    grid-row: span 2;
+}
+
+.item:nth-child(3) {
+    grid-column: span 2;
+}
+
+.item:nth-child(4) {
+    grid-column: span 2;
+}
