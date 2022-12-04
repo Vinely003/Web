@@ -1,0 +1,13 @@
+button {
+    position: fixed;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    background-color: red;
+    bottom: 20px;
+    right: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+}
