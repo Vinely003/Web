@@ -1,0 +1,63 @@
+body {
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(#CC231E, #34A65F, #235E6F);
+    height: 100vh;
+}
+
+.fejlec h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.search-wrapper {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-wrapper input[type=text] {
+    font-size: 2rem;
+    border-radius: 10px;
+    margin: 10px;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+}
+
+.search-wrapper input[type=text]:focus {
+    width: 70%;
+}
+
+.search-wrapper label {
+    font-size: 32px;
+    background-color: #0F8A5F;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.container a {
+    text-align: center;
+    border: 1px black solid;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    background-color: #F5624D;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.container a:hover {
+    background-color: #0F8A5F;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px , 1fr));
+    gap: 20px;
+}
+
+img {
+    width: 100px;
+}
